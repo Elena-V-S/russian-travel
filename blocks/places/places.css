@@ -1,5 +1,4 @@
+@import url('./__list/places__list.css');
 .places {
-    list-style-type: none;
     padding: 0;
-    margin: 0; 
 }
