@@ -4,5 +4,20 @@
 @import url('./__title/lead__title.css');
 @import url('./__figure/lead__figure.css');
 .lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 100%;
+    margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .lead  {
+        margin: 0 auto 88px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .lead  {
+        margin: 0 auto 64px;
+    }
 }
